@@ -1,25 +1,49 @@
 <!DOCTYPE HTML>
 
 
-<html>
+<html lang="en">
 	<head>
-		<title>My portfolio</title>
+		<link rel="canonical" href="https://isha1012.github.io/A-portfolio/" />
+		<title>Fehintola Aishat | UI/UX &amp; Digital Designer</title>
+			<meta name="description" content="Portfolio of Fehintola Aishat, a UI/UX and digital designer based in Calgary, featuring UI/UX case studies, branding, motion and content design." />
+			<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+			<link rel="icon" href="favicon.png" sizes="192x192" type="image/png" />
+			<link rel="apple-touch-icon" href="favicon.png" />
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="Fehintola Aishat | UI/UX &amp; Digital Designer" />
+			<meta property="og:description" content="Portfolio of Fehintola Aishat, a UI/UX and digital designer based in Calgary, featuring UI/UX case studies, branding, motion and content design." />
+			<meta property="og:url" content="https://isha1012.github.io/A-portfolio/" />
+			<meta property="og:image" content="https://isha1012.github.io/A-portfolio/images/og-image.png" />
+			<meta name="twitter:card" content="summary_large_image" />
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-		<style> 
-		.image img{
-			  width:500px; 
-			  height:330px; 
-			  background-color:rgb(6, 6, 12); 
-			  object-fit: contain;
+		<style>
+			/* identity: one accent, navy ink, Manrope headings, Inter text */
+			body, input, select, textarea { color: #4a5068; }
+			a.button, .button { color: #4b44c4 !important; box-shadow: inset 0 0 0 2px #4b44c4 !important; }
+			a.button:hover, .button:hover { background-color: rgba(75, 68, 196, 0.08) !important; }
+			a.button.primary, .button.primary { background-color: #4b44c4 !important; color: #ffffff !important; box-shadow: none !important; }
+			a.button.primary:hover, .button.primary:hover { background-color: #3b35a8 !important; }
+			#header ul.icons li a { display: inline-block; min-width: 44px; min-height: 44px; line-height: 44px; text-align: center; border-bottom: 0; }
+			video { max-width: 100%; height: auto; }
+
+			/* project cards: every thumbnail shares one 3:2 frame */
+			.posts article .image, .posts article .video { display: block; width: 100%; aspect-ratio: 3 / 2; background: #eef0f8; border-radius: 6px; overflow: hidden; }
+			.posts article .video { background: #14162b; }
+			.posts article .image img { display: block; width: 100%; height: 100%; object-fit: contain; background: transparent; }
+			.posts article .video video { width: 100%; height: 100%; max-width: none; object-fit: contain; }
+
+			#banner .image.object img { width: 100%; height: auto !important; object-fit: contain !important; background: transparent; }
+			@media screen and (max-width: 736px) {
+				#banner .image.object { height: auto !important; }
+				#banner ul.actions { flex-wrap: wrap; }
 			}
-			.image-object {
-			  width:500px; 
-			  height:auto; 
-			}
-			
+			.tools-label { margin: 2rem 0 0.75rem 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #4a5068; }
+			#banner ul.tools { align-items: center; gap: 0.5rem 1.25rem; }
+			#banner ul.tools li { padding-left: 0; }
+			#banner ul.tools li img { height: 52px; width: auto; }
+
 		</style>
 	</head>
 	<body class="is-preload">
@@ -36,8 +60,8 @@
 									<a href="index.html" class="logo"><strong>MY </strong> PORTFOLIO</a>
 									<ul class="icons">
 										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-										<li><a href="mailto:fehintolaaisha@gmail.com" target="_blank"><i class="fas fa-envelope" style="color:gray;"></i></a></li>
-										<li><a href="https://www.linkedin.com/in/aisha-fehintola-208821273" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+										<li><a href="mailto:fehintolaaisha@gmail.com"><i class="fas fa-envelope" style="color:gray;"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/aisha-fehintola-208821273" class="icon brands fa-linkedin" target="_blank" rel="noopener"><span class="label">linkedin</span></a></li>
 										<li> <a href="tel:+13685990811"><i class="fas fa-phone" style="color:gray;" ></i></a></li>
 										<!-- <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
 									</ul>
@@ -49,29 +73,31 @@
 										<header>
 											<h1>Fehintola Aishat's Portfolio<br />
 											</h1>
-											<p> a UI/UX Designer</p>
+											<p>UI/UX &amp; Digital Designer</p>
 										</header>
-										<p>Step into a world of design possibilities! 🎨 Welcome to my portfolio, where creativity meets functionality. I'm Fehintola Aishat, your guide to crafting captivating user experiences. Let's embark on a journey of innovation together!"</p>
+										<p>I design apps, websites and brand systems for real clients, from user research and wireframes to polished, tested prototypes. Based in Calgary and open to UI/UX and digital design roles.</p>
 										<ul class="actions">
-											<!-- <li><a href="#" class="button big">Grasp</a></li> -->
+											<li><a href="#work" class="button primary big">View my work</a></li>
+											<li><a href="Fehintola-Aishat-Resume.pdf" class="button big" target="_blank" rel="noopener">Download Resume</a></li>
 										</ul>
-										<ul class="actions">
-											<li><img src="images/figma.svg" height="100" width="100"  alt="" /></li>
-											<li><img src="images/adobe-illustrator.svg"height="100" width="100" alt=""/></li>
-											<li><img src="images/photoshop.svg" height="100" width="100"  alt="" /></li>
-											<li><img src="images/adobe-xd.svg" height="100" width="100"  alt="" /></li>
-											<li><img src="images/indesign.svg" height="100" width="80"  alt="" /></li>
+										<p class="tools-label">Tools I design with</p>
+										<ul class="actions tools">
+											<li><img src="images/figma.svg" height="100" width="100"  alt="Figma logo" /></li>
+											<li><img src="images/adobe-illustrator.svg"height="100" width="100" alt="Adobe Illustrator logo"/></li>
+											<li><img src="images/photoshop.svg" height="100" width="100"  alt="Adobe Photoshop logo" /></li>
+											<li><img src="images/adobe-xd.svg" height="100" width="100"  alt="Adobe XD logo" /></li>
+											<li><img src="images/indesign.svg" height="100" width="80"  alt="Adobe InDesign logo" /></li>
 											
 										</ul>
 									</div>
 									<span class="image object">
-										<img src="images/pic1.jpeg"  alt="" />
+										<img src="images/hero-solenne.webp" alt="Solenne luxury travel app: splash, onboarding and concierge screens" />
 									</span>
 								</section>
 
-								<section>
+								<section id="work">
 									<header class="major">
-										<h2>Tools & Software</h2>
+										<h2>My Work</h2>
 									</header>
 									<div class="features">
 										<article>
@@ -114,120 +140,120 @@
 									</header>
 									<div class="posts">
 											<article>
-													<a href="#" class="image"><img src="images/samples.png" alt="" /></a>
-													<h3>CASE STUDY</h3>
-													<p>A case study for an online store for children wears, shoes, gift, etc. this is the store where you get all your children stuffs from 0month - 12years</p>
+													<a href="https://www.figma.com/proto/r1bMsYuJUK6hvaKrPKpSOw/ecommerce?node-id=455-661&t=56WwVRqRoSf4llD1-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A523" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/samples.webp" alt="Children's online store app screens" /></a>
+													<h3>Children's Online Store - Case Study</h3>
+													<p>A UX case study for an online store selling children's clothing, shoes and gifts for ages 0 months to 12 years. The design helps parents find everything their child needs in one place.</p>
 													<ul class="actions">
-														<li><a href="https://www.figma.com/proto/r1bMsYuJUK6hvaKrPKpSOw/ecommerce?node-id=455-661&t=56WwVRqRoSf4llD1-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A523" class="button">VIEW PROJECT</a></li>
+														<li><a href="https://www.figma.com/proto/r1bMsYuJUK6hvaKrPKpSOw/ecommerce?node-id=455-661&t=56WwVRqRoSf4llD1-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A523" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 													</ul>
 												</article>
 												<article>
-													<a href="#" class="image"><img src="images/car.png" alt="" /></a>
-													<h3>CASE STUDY</h3>
-													<p>A case study for an ultimate app for buying new cars, selling, and trading used cars effortlessly and securely.</p>
+													<a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?page-id=1%3A3&node-id=128-2&viewport=518%2C295%2C0.35&t=NanWANAFBub1Jf5U-1&scaling=min-zoom&content-scaling=fixed" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/car.webp" alt="Car marketplace app screens" /></a>
+													<h3>Car Marketplace App - Case Study</h3>
+													<p>A UX case study for an app where users can buy new cars and sell or trade used ones, designed to make every step simple and secure.</p>
 													<ul class="actions">
-														<li><a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?page-id=1%3A3&node-id=128-2&viewport=518%2C295%2C0.35&t=NanWANAFBub1Jf5U-1&scaling=min-zoom&content-scaling=fixed" class="button">VIEW PROJECT</a></li>
+														<li><a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?page-id=1%3A3&node-id=128-2&viewport=518%2C295%2C0.35&t=NanWANAFBub1Jf5U-1&scaling=min-zoom&content-scaling=fixed" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 													</ul>
 												</article>
 												<article>
-													<a href="#" class="video"><video src="video/video1.mp4" alt="" width="530" height="330" controls></video></a>
+													<div class="video"><video aria-label="DOUGHNUT SHOP video" src="video/video1.mp4" width="530" height="330" controls playsinline preload="metadata"></video></div>
 													<h3>DOUGHNUT SHOP</h3>
 													<p>Donut Co., a cherished family-run shop with over 30 years of history, was ready to take its warm, local charm online. With growing demand for digital ordering and a modern web presence, I was tasked with creating a welcoming landing page that blends tradition with digital convenience. This project highlights how thoughtful UI/UX design can help a beloved neighborhood brand evolve while staying true to its roots.</p>
 													<ul class="actions">
-														<li><a href="https://www.figma.com/proto/RUpJZrNRe9rXMIJliwKLzs/Fehintola_Aishat_Assessment_4?node-id=88-105&p=f&t=RaK2Kq2CucrFkXXm-1&scaling=min-zoom&content-scaling=fixed&page-id=88%3A68" class="button">View project</a></li>
+														<li><a href="https://www.figma.com/proto/RUpJZrNRe9rXMIJliwKLzs/Fehintola_Aishat_Assessment_4?node-id=88-105&p=f&t=RaK2Kq2CucrFkXXm-1&scaling=min-zoom&content-scaling=fixed&page-id=88%3A68" class="button" target="_blank" rel="noopener">View project</a></li>
 													</ul>
 												</article>
 												<article>
-													<a href="#" class="image"><img src="images/Screenshot car.png" alt=""/></a>
-													<h3>DESIGN CONCEPT</h3>
+													<a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?node-id=4011-588&t=Ry3Ed557qKrVbCEi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4011%3A561&show-proto-sidebar=1" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/Screenshot car.webp" alt="Carhive car dealership app screens"/></a>
+													<h3>Carhive - Car Dealership App Concept</h3>
 													<p>Carhive is a new Calgary dealership selling new and used cars, in store and online. I redesigned my original concept into a 48-screen app built around trust, with clear Canadian pricing, vehicle history reports and online reservations, showing how research-led UI/UX design can help a new business win buyers’ confidence. </p>
 													<ul class="actions">
-														<li><a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?node-id=4011-588&t=Ry3Ed557qKrVbCEi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4011%3A561&show-proto-sidebar=1" class="button">VIEW PROJECT</a></li>
+														<li><a href="https://www.figma.com/proto/dQRgvrPysaxHZX4NgYjc8G/cars?node-id=4011-588&t=Ry3Ed557qKrVbCEi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4011%3A561&show-proto-sidebar=1" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 													</ul>
 												</article>
 												<article>
-														<a href="#" class="image"><img src="images/decor.png" alt=""/></a>
-														<h3>DESIGN CONCEPT</h3>
+														<a href="https://www.figma.com/proto/8vsRL0CKoJ60zbQCqmBgQL/Untitled?page-id=0%3A1&node-id=17-2&viewport=396%2C656%2C0.31&t=Ym6rsAGROyEzvyEW-1&scaling=scale-down-width" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/decor.webp" alt="Decor Shop landing page design"/></a>
+														<h3>Decor Shop - Landing Page Concept</h3>
 														<p>A desktop landing page design concept for an online home decor and furniture store, focused on a clean, editorial-style layout that lets product photography lead.
 															 The hero section and navigation prioritize easy browsing and a seamless path from discovery to checkout. </p>
 														<ul class="actions">
-															<li><a href="https://www.figma.com/proto/8vsRL0CKoJ60zbQCqmBgQL/Untitled?page-id=0%3A1&node-id=17-2&viewport=396%2C656%2C0.31&t=Ym6rsAGROyEzvyEW-1&scaling=scale-down-width" class="button">VIEW PROJECT</a></li>
+															<li><a href="https://www.figma.com/proto/8vsRL0CKoJ60zbQCqmBgQL/Untitled?page-id=0%3A1&node-id=17-2&viewport=396%2C656%2C0.31&t=Ym6rsAGROyEzvyEW-1&scaling=scale-down-width" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 														</ul>
 													</article>
 										<article>
-											<a href="#" class="image"><img src="images/sample4.png" alt="" /></a>
+											<a href="https://xd.adobe.com/view/793e4c24-3861-47f1-a093-51ef8a10984c-2c6d/" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/sample4.webp" alt="Alake's Properties website homepage" /></a>
 											<h3>Alake's properties</h3>
 											<p>A property search website designed for users aged 18 and above, built to simplify how people find their next home or investment opportunity. The project focused on intuitive navigation, accessible layouts, and a streamlined search experience,
 												 prioritizing ease of use at every step so visitors can move from search to decision with minimal friction.</p>
 											<ul class="actions">
-												<li><a href="https://xd.adobe.com/view/793e4c24-3861-47f1-a093-51ef8a10984c-2c6d/" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://xd.adobe.com/view/793e4c24-3861-47f1-a093-51ef8a10984c-2c6d/" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/imagepie.png" alt=""/></a>
+											<a href="https://www.figma.com/proto/k7LJQvOfMzsJkVM78YDLBI/Pastry?node-id=195-364&t=nOtHNZkZpBrnCAdB-1&scaling=scale-down&content-scaling=fixed&page-id=195%3A363&starting-point-node-id=195%3A364&show-proto-sidebar=1" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/imagepie.webp" alt="Bakery order and delivery tracking app screens"/></a>
 											<h3>Transforming the Bakery Experience: A UI/UX Design Journey</h3>
 											<p>A UI/UX concept for a bakery order and delivery tracking app, designed to simplify how customers browse, order, and track bakery items from a local shop. The project focused on intuitive navigation
 												 and a clean menu structure to make ordering feel quick and effortless. </p>
 											<ul class="actions">
-												<li><a href="https://www.figma.com/proto/k7LJQvOfMzsJkVM78YDLBI/Pastry?node-id=195-364&t=nOtHNZkZpBrnCAdB-1&scaling=scale-down&content-scaling=fixed&page-id=195%3A363&starting-point-node-id=195%3A364&show-proto-sidebar=1" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://www.figma.com/proto/k7LJQvOfMzsJkVM78YDLBI/Pastry?node-id=195-364&t=nOtHNZkZpBrnCAdB-1&scaling=scale-down&content-scaling=fixed&page-id=195%3A363&starting-point-node-id=195%3A364&show-proto-sidebar=1" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/sample5.png"  alt="" /></a>
+											<a href="https://xd.adobe.com/view/bf156c6b-3433-4ae8-acd3-ab1ea2e51cee-ea46/" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/sample5.webp"  alt="Revamp Auto Repair website shown on a phone" /></a>
 											<h3>Revamp Auto Repair's Online Presence</h3>
 											<p>A website redesign concept for Revamp Auto Repair, built to connect customers with auto repair services through clear navigation and a streamlined user experience.
 												 The design prioritizes easy access to service information, helping the business stand out in a competitive local market.</p>
 											<ul class="actions">
-												<li><a href="https://xd.adobe.com/view/bf156c6b-3433-4ae8-acd3-ab1ea2e51cee-ea46/" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://xd.adobe.com/view/bf156c6b-3433-4ae8-acd3-ab1ea2e51cee-ea46/" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/wheel screen.png" alt="" /></a>
-											<h3> Wheels & Pedals- Landing page concept</h3>
-											<p>A desktop landing page design concept for Wheels & Pedals, a scooter and bicycle shop. The layout leads with lifestyle photography and a bold color palette to highlight the brand’s “rolling fun for everyone” positioning, with clear navigation and a prominent shop call-to-action above the fold.</p>
+											<a href="https://www.figma.com/proto/o2FF9HXLsV6TASSpI4OEMh/scooter?node-id=1-2&p=f&t=G8s3BjmOkEwvifwa-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="image" target="_blank" rel="noopener"><img loading="lazy" src="images/wheel screen.webp" alt="Wheels &amp; Pedals landing page design" /></a>
+											<h3>Wheels &amp; Pedals - Landing Page Concept</h3>
+											<p>A desktop landing page design concept for Wheels &amp; Pedals, a scooter and bicycle shop. The layout leads with lifestyle photography and a bold color palette to highlight the brand’s “rolling fun for everyone” positioning, with clear navigation and a prominent shop call-to-action above the fold.</p>
 											<ul class="actions">
-												<li><a href="https://www.figma.com/proto/o2FF9HXLsV6TASSpI4OEMh/scooter?node-id=1-2&p=f&t=G8s3BjmOkEwvifwa-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://www.figma.com/proto/o2FF9HXLsV6TASSpI4OEMh/scooter?node-id=1-2&p=f&t=G8s3BjmOkEwvifwa-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-												<a href="#" class="image"><img src="images/infographic.png" alt="" /></a>
+												<span class="image"><img loading="lazy" src="images/infographic.webp" alt="Infographic on five ethical and copyright issues in digital design" /></span>
 												<h3>INFOGRAPHICS</h3>
 												<p>This project required the creation of an infographic illustrating five key ethical and copyright issues relevant to the digital design profession. Using a structured design plan and applying course concepts, I developed a visually engaging piece that combines clear iconography, intentional hierarchy, and thoughtful styling to support comprehension. The final infographic is accompanied by a concise brief explaining my design decisions, ensuring both clarity of message and alignment with professional design standards.</p>
 												<ul class="actions">	
 												</ul>
 											</article>
 										<!-- <article>
-											<a href="#" class="image"><img src="images/sample6.png" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/sample6.webp" alt="BrandCrafters website design" /></a>
 											<h3>BrandCrafters - Elevating Your Brand to New Heights! Desktop view</h3>
 											<p>Welcome to BrandCrafters, where the art of branding meets digital innovation. Join us as we embark on a journey to create a dynamic website for our branding company.
 													Explore how we seamlessly blend creativity and strategy to craft compelling brand stories, captivating visuals, and unforgettable experiences. Discover how our website reflects our commitment to helping businesses
 													stand out in today's competitive landscape. Let's unlock the full potential of your brand with BrandCrafters!</p>
 											<ul class="actions">
-												<li><a href="https://www.figma.com/proto/vPXGt1NYtwGsJUaDjKLB09/Untitled?type=design&node-id=201-2&t=vMSPYXDRF71wEzn4-1&scaling=min-zoom&page-id=15%3A3&starting-point-node-id=201%3A2&mode=design" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://www.figma.com/proto/vPXGt1NYtwGsJUaDjKLB09/Untitled?type=design&node-id=201-2&t=vMSPYXDRF71wEzn4-1&scaling=min-zoom&page-id=15%3A3&starting-point-node-id=201%3A2&mode=design" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/mobile sample.png" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/mobile sample.webp" alt="Girlcode coding education app screens" /></a>
 											<h3>Girlcode - Empowering Women Through Technology</h3>
 											<p>Welcome to girlcode, an innovative app developed by an NGO dedicated to empowering women in tech. Join us on a transformative journey as we bridge the gender gap in the 
 												tech industry by providing accessible coding education for women. Discover how girlcode fosters a supportive community, offers interactive lessons, and provides mentorship opportunities to help women thrive as developers.
 												 Let's break barriers and unlock endless possibilities together with girlcode!</p>
 											<ul class="actions">
-												<li><a href="https://www.figma.com/proto/pXCPpdi7LXAKmifoVuRopa/Untitled?t=yjSZg6MvsAJEX7HY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://www.figma.com/proto/pXCPpdi7LXAKmifoVuRopa/Untitled?t=yjSZg6MvsAJEX7HY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul> -->
 										<!-- </article>
 										<article>
-											<a href="#" class="image"><img src="images/sample1.png" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/sample1.webp" alt="MathWiz Elementary math tutorial website" /></a>
 											<h3>MathWiz Elementary - Your Path to Mathematical Excellence!</h3>
 											<p>Welcome to MathWiz Elementary, where learning math becomes an engaging adventure for young minds! Join us as we embark on a journey to create a dynamic
 												 tutorial website tailored specifically for elementary students. Dive into a world of interactive lessons, fun activities, and personalized learning experiences
 												  designed to ignite curiosity and foster mathematical proficiency. Let's empower young learners to become confident mathematicians with MathWiz Elementary!</p>
 											<ul class="actions">
-												<li><a href="https://www.figma.com/proto/m9DokyQNB8aOhkBanq8wT0/Untitled?node-id=2-177&t=a8Iqi0kj6AhfJAEj-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A177" class="button">VIEW PROJECT</a></li>
+												<li><a href="https://www.figma.com/proto/m9DokyQNB8aOhkBanq8wT0/Untitled?node-id=2-177&t=a8Iqi0kj6AhfJAEj-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A177" class="button" target="_blank" rel="noopener">VIEW PROJECT</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/heropage.png" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/heropage.webp" alt="Stardust Expeditions hero page design" /></a>
 											<h3>HERO PAGE</h3>
 											<p>Stardust Expeditions, a luxury interstellar travel company set in the year 2284, approached me to reimagine the hero section of their outdated website. Their goal was to transform a clunky, retro 1990s interface into a cinematic, immersive gateway to deep-space exploration. Using Adobe Illustrator, I created a futuristic, visually striking hero design that captures the wonder of cosmic travel while offering a clearer, more intuitive path to booking voyages across the stars.</p>
 											<ul class="actions">
@@ -245,13 +271,6 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
@@ -260,6 +279,7 @@
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="generic.html">About </a></li>
+										<li><a href="Fehintola-Aishat-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
 										<!-- <li><a href="elements.html">Elements</a></li>
 										<li>
 											<span class="opener">Submenu</span>
@@ -294,15 +314,15 @@
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/pic07.jpg" alt="" /></a>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/pic08.jpg" alt="" /></a>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<a href="#" class="image"><img loading="lazy" src="images/pic09.jpg" alt="" /></a>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 										</article>
 									</div>
@@ -319,16 +339,16 @@
 									<!-- <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p> -->
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="mailto:fehintolaaisha@gmail.com">fehintolaaisha@gmail.com</a></li>
-										<li class="icon solid fa-phone">07446548278</li>
+										<li class="icon solid fa-phone">(368) 599-0811</li>
 										<!-- <li class="icon solid fa-home">1234 Somewhere Road #8254<br />
 										Nashville, TN 00000-0000</li> -->
 									</ul>
 								</section>
 
 							<!-- Footer -->
-								<!-- <footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="#">fehintola Aishat</a>.</p>
-								</footer> -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2026 Fehintola Aishat. Template: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a>.</p>
+								</footer>
 
 						</div>
 					</div>

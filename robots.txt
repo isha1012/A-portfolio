@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://isha1012.github.io/A-portfolio/sitemap.xml
